@@ -1,6 +1,6 @@
-package rooms;
+package hotel_structure;
 
-public enum Number {
+public enum RoomNumber {
 
     ROOM_NO_101 (101),
     ROOM_NO_102 (102),
@@ -16,7 +16,7 @@ public enum Number {
 
     private final int roomNumber;
 
-    Number(int roomNumber) {
+    RoomNumber(int roomNumber) {
         this.roomNumber = roomNumber;
     }
 

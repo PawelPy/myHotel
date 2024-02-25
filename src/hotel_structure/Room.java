@@ -1,4 +1,4 @@
-package rooms;
+package hotel_structure;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,15 +6,15 @@ import java.util.Objects;
 
 public class Room {
 
-    private final Number roomNumber;
+    private final RoomNumber roomNumber;
     private final String roomName;
 
-    private final Standard roomStandard;
-    private final Category roomCategory;
-    private final Floor roomFloor;
+    private final RoomStandard roomStandard;
+    private final RoomCategory roomCategory;
+    private final HotelFloor roomFloor;
     private final Map<Bed, Integer> roomBeds = new HashMap<>();
 
-    protected Room(Number roomNumber, String roomName, Standard roomStandard, Category roomCategory, Floor roomFloor) {
+    protected Room(RoomNumber roomNumber, String roomName, RoomStandard roomStandard, RoomCategory roomCategory, HotelFloor roomFloor) {
         this.roomNumber = roomNumber;
         this.roomName = roomName;
         this.roomStandard = roomStandard;
@@ -26,7 +26,7 @@ public class Room {
         this.getRoomBeds().put(bedKind, bedNumber);
     }
 
-    public Number getRoomNumber() {
+    public RoomNumber getRoomNumber() {
         return roomNumber;
     }
 
@@ -34,15 +34,15 @@ public class Room {
         return roomName;
     }
 
-    public Standard getRoomStandard() {
+    public RoomStandard getRoomStandard() {
         return roomStandard;
     }
 
-    public Category getRoomCategory() {
+    public RoomCategory getRoomCategory() {
         return roomCategory;
     }
 
-    public Floor getRoomFloor() {
+    public HotelFloor getRoomFloor() {
         return roomFloor;
     }
 

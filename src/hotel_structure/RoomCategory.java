@@ -1,15 +1,15 @@
-package rooms;
+package hotel_structure;
 
-public enum Category {
+public enum RoomCategory {
 
     DOUBLE ("dbl"),
     TWIN ("twin"),
-    DBL_TRPL ("d_trpl"),
-    TWIN_TRPL ("t_trpl");
+    DOUBLE_PLUS("dbl+"),
+    TWIN_PLUS("twin+");
 
     private final String roomMainCategoryName;
 
-    Category(String roomMainCategoryName) {
+    RoomCategory(String roomMainCategoryName) {
         this.roomMainCategoryName = roomMainCategoryName;
     }
 

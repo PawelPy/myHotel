@@ -1,6 +1,6 @@
-package rooms;
+package hotel_structure;
 
-public enum Standard {
+public enum RoomStandard {
 
     STANDARD ("standard"),
     BUSINESS ("biznes"),
@@ -9,7 +9,7 @@ public enum Standard {
 
     private final String roomStandardName;
 
-    Standard(String roomStandardName) {
+    RoomStandard(String roomStandardName) {
         this.roomStandardName = roomStandardName;
     }
 

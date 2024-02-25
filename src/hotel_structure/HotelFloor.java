@@ -1,6 +1,6 @@
-package rooms;
+package hotel_structure;
 
-public enum Floor {
+public enum HotelFloor {
 
     FLOOR_1(1),
     FLOOR_2 (2),
@@ -8,7 +8,7 @@ public enum Floor {
 
     private int floorNumber;
 
-    Floor(int floorNumber) {
+    HotelFloor(int floorNumber) {
     }
 
 

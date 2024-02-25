@@ -1,4 +1,4 @@
-package rooms;
+package hotel_structure;
 
 public enum Bed {
 
