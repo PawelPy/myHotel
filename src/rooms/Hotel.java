@@ -31,8 +31,9 @@ public class Hotel {
         Room room302 = new Room(Number.ROOM_NO_302, "cb", Standard.SUITE, Category.TWIN_TRPL, Floor.FLOOR_1);
         room101.setRoomBeds(Bed.BED_90, 3);
 
-        Room room303 = new Room(Number.ROOM_NO_303, "cc", Standard.BUSINESS, Category.DOUBLE, Floor.FLOOR_1);
+        Room room303 = new Room(Number.ROOM_NO_303, "cc", Standard.BUSINESS, Category.DBL_TRPL, Floor.FLOOR_1);
         room101.setRoomBeds(Bed.BED_160, 1);
+        room101.setRoomBeds(Bed.BED_90, 1);
 
     }
 
