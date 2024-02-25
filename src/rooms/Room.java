@@ -38,8 +38,8 @@ public class Room {
         return roomStandard;
     }
 
-    public Standard getRoomCategory() {
-        return roomStandard;
+    public Category getRoomCategory() {
+        return roomCategory;
     }
 
     public Floor getRoomFloor() {

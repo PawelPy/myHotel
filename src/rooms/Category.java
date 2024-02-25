@@ -9,8 +9,8 @@ public enum Category {
 
     private final String roomMainCategoryName;
 
-    Category(String roomMainCategoryname) {
-        this.roomMainCategoryName = roomMainCategoryname;
+    Category(String roomMainCategoryName) {
+        this.roomMainCategoryName = roomMainCategoryName;
     }
 
     public String getRoomMainCategoryName() {
