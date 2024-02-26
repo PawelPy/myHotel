@@ -5,8 +5,7 @@ public class HotelUserData extends Data{
     private final String login;
     private final String loginPassword;
 
-    public HotelUserData(int fileId, String firstName, String surname, String login, String loginPassword) {
-        super(fileId, firstName, surname);
+    public HotelUserData(String firstName, String surname, String login, String loginPassword) {
         this.login = login;
         this.loginPassword = loginPassword;
     }

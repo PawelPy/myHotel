@@ -1,6 +1,6 @@
 package fileData;
 
-public class ClientPayerData extends Data{
+public class ClientCompanyData extends Data{
 
     private String companyName;
     private String nipNumber;

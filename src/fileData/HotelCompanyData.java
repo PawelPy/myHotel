@@ -1,6 +1,6 @@
 package fileData;
 
-public class HotelSellerData extends Data{
+public class HotelCompanyData extends Data{
 
     private String companyName;
     private String nipNumber;
